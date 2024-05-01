@@ -1,11 +1,17 @@
 import useAuth from "../hooks/useAuth";
 import {Navigate, Outlet} from "react-router-dom";
+import NavBar from "./NavBar";
 
 const RequireAuth = () => {
     const {token} = useAuth();
 
     return (
-        token ? <Outlet /> : <Navigate to='/login' replace={true} />
+        token ? (
+            <>
+                <NavBar />
+                <Outlet />
+            </>
+        ) : <Navigate to='/login' replace={true} />
     )
 }
 

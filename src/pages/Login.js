@@ -27,8 +27,7 @@ function Login(props) {
             setIsLoginBtnDisabled(false);
             setIsLoginBtnLoading(false);
             if (e.response && e.response.status === 401) {
-                message.error('Access denied!');
-                return;
+                message.error(e.response.data.detail);
             } else {
                 message.error('Please check your internet connection');
             }
@@ -45,8 +44,9 @@ function Login(props) {
 
     return (
         <div className='vh-100 d-flex justify-content-center align-items-center'>
-            <Card style={{ width: '450px' }} className='pb-5 bg-light'>
-                <h1 className='text-center mb-5'>Secrets Manager</h1>
+            <Card style={{width: '450px'}} className='pb-5 bg-light'>
+                <h1 className='text-center mb-3'>Secrets Manager</h1>
+                <h3 className='text-center mb-5'>Login</h3>
                 <div className='mb-3'>
                     <Input
                         size={"large"}
