@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+# Secrets Manager
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Secrets Manager is a secure and convenient solution for managing sensitive information such as database credentials, API keys, and other secrets in your projects. With a user-friendly interface built with ReactJS, Secrets Manager allows developers to securely store, access, and manage their secrets programmatically, providing a seamless integration into their projects.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Secure Storage**: Safely store sensitive information with robust encryption mechanisms, ensuring data security.
+- **Programmatic Access**: Access stored secrets programmatically in your projects, enabling seamless integration without compromising security.
+- **User-Friendly Interface**: Intuitive and responsive web interface built with ReactJS for effortless navigation and usage.
+- **Role-Based Access Control**: Manage access permissions with role-based authentication, ensuring that only authorized users can view and modify secrets.
+- **Audit Trail**: Keep track of all changes made to secrets with detailed audit logs, providing accountability and transparency.
+- **Customizable**: Adapt Secrets Manager to fit your specific use case with customizable settings and configurations.
 
-### `npm start`
+## Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To get started with Secrets Manager, follow these simple steps:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. **Clone the Repository**: Clone this repository to your local machine.
+2. **Install Dependencies**: Run `npm install` to install all necessary dependencies.
+3. **Configure Backend**: Set up and configure the backend server for storing secrets. (Link to backend repository or documentation)
+4. **Start the Development Server**: Run `npm start` to start the development server and launch the application in your browser.
 
-### `npm test`
+## Contributing
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Contributions are welcome! If you'd like to contribute to Secrets Manager, please fork the repository and submit a pull request with your proposed changes. Make sure to follow the [contribution guidelines](CONTRIBUTING.md).
 
-### `npm run build`
+## License
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This project is licensed under the [MIT License](LICENSE).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Contact
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Have questions or need support? Feel free to reach out to me at [info@emmanuelmaunga.dev](mailto:info@emmanuelmaunga.dev).
